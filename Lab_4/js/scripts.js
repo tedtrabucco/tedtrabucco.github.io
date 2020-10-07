@@ -8,9 +8,9 @@ let myFullName = "Ted Trabucco"; // 10 characters in name...not including space
     const paragraphs = document.querySelector(".content");
     
     const p1 = document.createElement("p");
-    p1.className = "p1";
+    p1.className = "content1";
     const p2 = document.createElement("p");
-    p2.className = "p2";
+    p2.className = "content2";
 
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
 //      (e.g. my name has 10 characters).

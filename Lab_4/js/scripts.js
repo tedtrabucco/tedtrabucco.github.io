@@ -6,7 +6,6 @@ let myFullName = "Ted Trabucco"; // 10 characters in name...not including space
 //  Label each paragraph with a distinct class name
 
     const paragraphs = document.querySelector(".content");
-    
     const p1 = document.createElement("p");
     p1.className = "content1";
     const p2 = document.createElement("p");

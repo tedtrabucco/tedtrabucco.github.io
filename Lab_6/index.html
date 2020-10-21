@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6</title>
+    <link rel="stylesheet" href="css/form_styles.css">
+</head>
+<body>
+        <form action="https://fierce-taiga-97625.herokuapp.com/lab" method="post">
+            <h1 class = "intro">HTML Forms Lab</h1>
+            <ul>
+            <li>
+           <label for="name">Name</label><br>
+<!-- the / in the following does not appear to be necessary-->
+<!-- neither id attributes seem to be needed-->
+           <input type="text" id="name" name="name" maxlength="140" /><br>
+            </li>
+            <li>
+           <label for="interests">Interests</label><br>
+           <textarea rows = "3" cols = "33" id="interests" name="interests">Description</textarea><br>
+        </li>
+            <button type="submit">Submit</button>
+        </li>
+        </ul>
+
+       </form>
+</body>
+</html>

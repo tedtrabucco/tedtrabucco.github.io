@@ -12,7 +12,7 @@ function countryListMaker(){
 	var unusedCountries = countryList;
 //Adds countries until length of array is 25
     while (countries.length < 25) {
-//!!!!!!!!!!!!Generates random country, REMOVING "countryList" FROM BEGGINNING WILL GENERATE JUST NUMBER!!!!!!!
+//!!!!!!!!!!!!Generates random country, putting "countryList" before math bracket will generate name instead of number
 		countryID = [Math.floor(Math.random() * countryList.length)];
 //Only adds to array if it is not already on it
 		if (countries.includes(countryList[countryID]) === false) {

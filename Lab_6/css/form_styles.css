@@ -5,7 +5,7 @@ form {
     
     /* Center the form on the page */
     margin: 0 auto;
-    width: 300px;
+    width: 270px;
 
   }
   
@@ -14,13 +14,17 @@ form {
     padding: 0;
     margin: 0;
   }
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+  }
   
   form li + li {
     margin-top: 1em;
   }
   
   label {
-    /* Uniform size & alignment */
     text-align: left;
     font-weight: bold;
     margin-bottom: 5px;
@@ -28,8 +32,6 @@ form {
   }
   
   button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
     margin-left: 6px;
     background-color: darkturquoise;
     color: darkred;

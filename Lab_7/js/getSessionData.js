@@ -22,7 +22,7 @@ lonMax.innerText = lon_max;
 lonMin.innerText = lon_min;
 
 /*MORE EFFICIENT WAY TO DO THIS, ONLY DID ABOVE TO FOLLOW INSTRUCTIONS:
-//NEEDED TO LINK TO GETSESSIONDATA.HTML PAGE
+//STILL NEED TO LINK TO GETSESSIONDATA.HTML PAGE
 const title = document.getElementById("title"); 
 const lat_max = document.getElementById("lat_max");
 const lat_min = document.getElementById("lat_min");

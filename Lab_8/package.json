@@ -1,0 +1,9 @@
+{
+    "name": "trabucco_lab8",
+    "version": "1.0.0",
+    "description": "My first package",
+    "author": "Ted Trabucco",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

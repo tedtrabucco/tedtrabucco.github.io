@@ -17,8 +17,8 @@ async function getData() {
             for (x = 0; x < 5; x++) {
                 const redditList = document.querySelector("#redditList");
                 let rdm = Math.floor((Math.random() * listsize));
-                console.log(rdm);
-                console.log(listSize);
+                //console.log(rdm);
+                //console.log(listSize);
 
                 let title = json.data.children[rdm].data.title;
                 let subreddit = json.data.children[rdm].data.subreddit;
@@ -26,7 +26,7 @@ async function getData() {
                 let ups = json.data.children[rdm].data.ups;
 
                 let message = "<b>Subreddit </b>: " + subreddit + " <b>Author</b>:" + author + " <b>Title</b>:" + title + " <b>Up votes</b>: " + ups;
-                console.log(message);
+                //console.log(message);
 //                messages.push(message);
 
                 //chartValues.push({'label': author, y: ups})

@@ -15,8 +15,8 @@ async function getData() {
 
             // Loop to pick 5 random entries
             for (x = 0; x < 5; x++) {
-                const redditList = document.querySelector("#redditList");
-                let rdm = Math.floor((Math.random() * listsize));
+                let redditList = document.querySelector("#redditList");
+                let rdm = Math.floor((Math.random() * listSize));
                 //console.log(rdm);
                 //console.log(listSize);
 
@@ -41,7 +41,7 @@ async function getData() {
 
                 /*.......*/
                
-                let addToChart = {label:author,y:ups}; // Gave this. This needs to be added to the 'chartValues'
+                let addToChart = {'label':author,y:ups}; // Gave this. This needs to be added to the 'chartValues'
                 chartValues.push(addToChart);        /*.......*/
 
             }

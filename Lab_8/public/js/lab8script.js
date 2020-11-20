@@ -27,12 +27,6 @@ async function getData() {
 
                 let message = "<b>Subreddit </b>: " + subreddit + " <b>Author</b>:" + author + " <b>Title</b>:" + title + " <b>Up votes</b>: " + ups;
                 //console.log(message);
-//                messages.push(message);
-
-                //chartValues.push({'label': author, y: ups})
-
-                //chartValues.push(author);
-                //chartValues.push(ups);
                 /*
                     Get a random number within the size of the list
                     Get subreddit, author, title, and ups from record
@@ -42,13 +36,13 @@ async function getData() {
                     Add a data entry to chartValues with author as the label and ups as the y component
                 */
                
-                //redditList.innerHTML = redditList + <li> + message + </li>;
+                redditList.innerHTML = redditList + "<li>" + message + "</li>";
     
 
                 /*.......*/
                
-        let addToChart = {label:author,y:ups}; // Gave this. This needs to be added to the 'chartValues'
-        chartValues.push(addToChart);        /*.......*/
+                let addToChart = {label:author,y:ups}; // Gave this. This needs to be added to the 'chartValues'
+                chartValues.push(addToChart);        /*.......*/
 
             }
         })

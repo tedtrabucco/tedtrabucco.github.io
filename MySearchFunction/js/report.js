@@ -1,6 +1,6 @@
-let url = "https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json?city=COLLEGE PARK&name=PANDA EXPRESS 2578";
-let id = "2578";
-let inspection = url;
+let url = "https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json?city=COLLEGE PARK&establishment_id=";
+let id = sessionStorage.getItem("searchID");
+let inspection = url+id;
 
 fetch(inspection)
             .then(function (response) {

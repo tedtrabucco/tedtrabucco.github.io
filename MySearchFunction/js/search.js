@@ -25,14 +25,21 @@ const loadRestaurants = async () => {
     }
 };
 
+function setID(id) {
+    sessionStorage.setItem("searchID", id);
+    console.log(id)
+}
+
 //displays all restaurants and will provide links when finished
 const displayRestaurants = (restaurants) => {
     const htmlString = restaurants
         .map((restaurant) => {
             return `
             <li class="restaurant">
-                <a href="report.html">${restaurant.name}</a>
+                <a href="report.html" onclick="return setID(${restaurant.id})">${restaurant.name}</a>
                 <p><i>${restaurant.address1}</i></p>
+                
+
             </li>
         `;
         })
